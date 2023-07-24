@@ -18,7 +18,7 @@ public class Client : MonoBehaviour
 
     //固定参数
     // 这个后缀名可以是png以及任何后缀名都可以，只要能成功读取就行
-    const string cameraFileName = "CarCamera.png";
+    const string cameraFileName = "CarCamera.cam";
     const string locFileName = "data";       //由于采用内存池方法设计，因此只定义文件名字，不定义文件类型
     const string endSymbol = "\t";              //消息结束符
     const float pi = 3.1415926f;
